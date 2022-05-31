@@ -23,6 +23,7 @@ keymap('n', '<C-l>', '<C-w>l', opts)
 
 -- Normal mappings for Telescope
 keymap('n', '<leader>ff', ':Telescope find_files<enter>', opts)
+keymap('n', '<leader>fh', ':Telescope find_files hidden=true<enter>', opts)
 keymap('n', '<leader>fg', ':Telescope live_grep<enter>', opts)
 
 -- Insert mappings

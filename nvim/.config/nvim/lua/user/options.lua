@@ -21,4 +21,4 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = 'yes'
 vim.opt.virtualedit = 'onemore'
 vim.opt.termguicolors = true
-vim.opt.autochdir = true
+--vim.opt.autochdir = true tried it don't like it
