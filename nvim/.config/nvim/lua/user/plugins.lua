@@ -47,6 +47,7 @@ return packer.startup(function(use)
         run = ':TSUpdate',
     }
     use 'lewis6991/gitsigns.nvim'
+    use 'windwp/nvim-autopairs'
 
     -- Colourscheme
     use 'gruvbox-community/gruvbox'
