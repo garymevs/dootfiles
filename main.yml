@@ -1,0 +1,14 @@
+- name: Main playbook
+  hosts: localhost
+  tasks:
+    - name: Install go
+      import_role: 
+        name: fubarhouse.golang
+      tags: 
+        - go
+
+    - name: Install nvim
+      import_role:
+        name: sthysel.neovim
+      tags:
+        - nvim
