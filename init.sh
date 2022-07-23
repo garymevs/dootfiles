@@ -2,6 +2,6 @@
 for dir in ./*/
 do
 	stowable=${dir//./}
-	stowable=${dir//\//}
-	echo ${stowable}
+	stowable=${stowable//\//}
+	stow ${stowable}
 done
