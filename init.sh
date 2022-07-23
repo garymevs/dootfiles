@@ -1,5 +1,7 @@
 #!/bin/bash
 for dir in ./*/
 do
-	stow ${dir}
+	stowable=${dir//./}
+	stowable=${dir//\//}
+	echo ${stowable}
 done
