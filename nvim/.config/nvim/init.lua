@@ -7,4 +7,4 @@ require 'user.lsp.init'
 require 'user.telescope'
 require 'user.autopairs'
 -- gruvbox should be added by plugins ^^
--- vim.cmd 'colorscheme gruvbox'
+vim.cmd 'colorscheme gruvbox'
